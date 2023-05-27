@@ -3,9 +3,11 @@ const express = require('express')
 const routes = express.Router()
 
 const user = {
+  username: 'akicode',
+  avatar: 'https://avatars.githubusercontent.com/u/126093767?v=4',
   email: 'akicodeoficial@gmail.com',
-  password: 'root'
-}
+  password: 'root',
+};
 
 routes.get('/', (req, res) => {
   return res.json({ message: 'ok' })
@@ -22,7 +24,7 @@ routes.post('/login', (req, res) => {
     return res.status(401).json({ message: 'Email ou senha inválidos' })
   }
 
-  return res.json({ message: 'ok' })
+  return res.json.status(200)({ user: user })
 })
 
 module.exports = routes
