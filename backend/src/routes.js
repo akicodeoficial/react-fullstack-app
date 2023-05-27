@@ -24,7 +24,7 @@ routes.post('/login', (req, res) => {
     return res.status(401).json({ message: 'Email ou senha inválidos' })
   }
 
-  return res.json.status(200)({ user: user })
+  return res.status(200).json({ user: user });
 })
 
 module.exports = routes
