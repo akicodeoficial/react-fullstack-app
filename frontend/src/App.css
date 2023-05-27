@@ -101,3 +101,8 @@ input[type="email"]:focus {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+
+img {
+  width: 300px;
+  border-radius: 50%;
+}
