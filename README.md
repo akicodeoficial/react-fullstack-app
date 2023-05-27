@@ -17,4 +17,9 @@ npm run build --prefix frontend
 npm run start --prefix frontend
 ```
 
+### Credenciais
+
+email: **akicodeoficial@gmail.com**
+senha: **root**
+
 ![Captura de Tela](./2023-05-27_14-00.png)
